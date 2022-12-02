@@ -1,0 +1,21 @@
+digraph learning {
+    a [class="1" label="Studentene har grunnleggende kunnskap om programmering og algoritmisk problemløsning i lavnivåspråk"]
+    b [class="1" label="Studentene har grunnleggende kunnskap om data- og kontrollstrukturer, og en grunnleggende introduksjon til algoritmisk kompleksitet"]
+    c [class="1" label="Studentene har grunnleggende forståelse av datamaskiners virkemåte, og sammenhengen mellom dette og programmer"]
+    d [class="1" label="Studentene kan utvikle egne programmer fra en problembeskrivelse"]
+    e [class="1" label="Studentene kan analysere programmer med hensyn på algoritmisk kompleksitet"]
+    f [class="1" label="Studentene kan beskrive datamaskiners virkemåte og sammenheng mellom dette og kjørende programmer"]
+    g [class="1" label="Studentene kan sette seg inn i nye programmeringsspråk"]
+    h [class="1" label="Studentene forstår det å løse problemer algoritmisk og omsette det i programmer skrevet i lavnivåspråk"]
+    i [class="1" label="Studentene forstår hvordan datamaskiner virker og hvordan dette henger sammen med programmer og programmering"]
+
+    aa [class="2" label="Kreativ problemløsning"]
+    bb [class="2" label="Programmere i C"]
+    cc [class="2" label="Mental modell av Von Neumann arkitekturen"]
+    dd [class="2" label="Mental modell for instruksjonssyklusen"]
+    
+    a -> aa
+    a -> bb
+    b -> bb
+    b -> cc
+}
